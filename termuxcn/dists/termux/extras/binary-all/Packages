@@ -1,0 +1,27 @@
+Package: linux-installer-installer
+Version: 1
+Architecture: all
+Maintainer: @txmu
+Description: Help install linux installer
+Homepage: https://github.com/cterxn/linux-installer-installer
+Depends: wget,curl,git
+Filename: dists/termux/extras/binary-all/linux-installer-installer_1_all.deb
+Size: 1308
+MD5Sum: 11ba35ffb89670465263fde6d1e53472
+SHA1: de39e4091e95d79d3f34fc75856622b678d6bdfb
+SHA256: 75db6654c3619bf6c84081fa86d8eaddebea735d79e89549138bca991df6bd69
+SHA512: 2460a69464ac39d1882acfd3e19ca3f2b8b46538a54c1af3c65cd46da0dd4a28c2bec2a9883b719112a85ff1c7c211cda1bd83bc35eb5aa4aab8db1284b7a05b
+
+Package: termux-cn-doc
+Version: 1
+Architecture: all
+Maintainer: @txmu
+Description: 中文termux文档，仓库链接：https://github.com/myfreess/Mytermuxdoc。本人仅是代打包并增加一些，其中有本人写的，也有不是本人写的
+Homepage: https://github.com/myfreess/Mytermuxdoc
+Filename: dists/termux/extras/binary-all/termux-cn-doc_1_all.deb
+Size: 139724
+MD5Sum: 01afba4ae5bc3d6ea698c5b2fd1d145f
+SHA1: f2abfea36303e50c5edb2be43a485458eb865fb5
+SHA256: 2e60fdaa2032cff639876a62af3a9d3689015f85bf589e1ed758ffc1566d9403
+SHA512: d0a80d5b7aceaaec4d51f7fbfd0b7dd234f571adaf5725da7345e1d7908663264819499cde342e6b0e26befbc51e39575158ddd63ce9069a63fcf80e0d18f60c
+

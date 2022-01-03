@@ -1,0 +1,15 @@
+data/data/com.termux/files/usr/bin/lii                                           linux-installer-installer
+data/data/com.termux/files/usr/share/Mytermuxdoc/Base/Proot.md                   termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/Base/Termux.md                  termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/ADB支持.txt                  termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/Gobullettrain—更好的Termux个性化方案.md termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/Graph/gbt.png              termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/Linuxdeploy与Termux联动工作.md  termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/可爱的Termux命令行.md            termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/在Termux上运行Torweb服务端.md     termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/基于Proot跑起ParrotOS.md       termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/基于Termux打造Geek风格的Android桌面.md termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/将贴吧的贴子输出为epub电子书.md        termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/POST/开启OpenSSH服务.md             termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/README.md                       termux-cn-doc
+data/data/com.termux/files/usr/share/Mytermuxdoc/txmuadd/termux.html             termux-cn-doc
