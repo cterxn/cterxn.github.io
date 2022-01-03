@@ -134,6 +134,19 @@ SHA1: abc0055d19929afb9c504049a2651b93e7a30bd3
 SHA256: 30b4f35525a8729447a1354be05b600522758110431c2ab4887bc32fec991047
 SHA512: 97ca5c1b6fbec7dbb30c90ae89c35ed256f354ead11d0c8def474e9867aa42814b9f2fe5f583cf5d6a9e8ed9566eb6a3feb81e8daf1a3daf17ee9447235c4ce7
 
+Package: predict
+Version: 2.2.7
+Architecture: aarch64
+Maintainer: 2096779623,John A. Magliacane,KD2BD
+Description: PREDICT是一个 开源的、多用户的卫星跟踪和轨道预测程序。
+Homepage: https://utermux.eu.org
+Filename: dists/termux/extras/binary-aarch64/predict_2.2.7_aarch64.deb
+Size: 1235184
+MD5Sum: ef233a7a0db73bc7c1da6a1495ed5bc1
+SHA1: 78152d18fdde24636b02378db3df5b569a9ac6bd
+SHA256: 774c6ad1fa1979beaf9f92fb54dd85ada57869d04a8627f276ae4570f000d29b
+SHA512: 3f2993d69ab3366cda6aecb8552b203dd26d755afb122d4441b6c6d22df635e57306cfd4331506166eaa12b67549b4a70c88635982e9c15928a1788173ae13f6
+
 Package: shc
 Architecture: aarch64
 Installed-Size: 125
