@@ -1,3 +1,33 @@
+Package: dex2jar
+Architecture: all
+Installed-Size: 15943
+Depends: openjdk-17
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 2.1-SNAPSHOT
+Homepage: https://github.com/ThexXTURBOXx/dex2jar
+Description: Tools to work with android .dex and java .class files
+Filename: dists/termux/extras/binary-all/dex2jar_2.1-SNAPSHOT_all.deb
+Size: 9256996
+MD5Sum: b3d713ae1988cf39c507ccda2008e24b
+SHA1: 358416cb0742b7e0600125abcb8fd8606100fecb
+SHA256: 59274cd1eff3c1fb23ce49ee3d56afc59e05688bdeac5d0be8c952b2372a6b5c
+SHA512: 10c94c0cda96ea3fa92a1d6f1daf80a5429e567997927a12e5dc4234fd0f75ff4c2838b6e80c1b8b9eb4066a46c55f19920108411db8b25645fd8cde9705972b
+
+Package: img2sdat
+Architecture: all
+Installed-Size: 168
+Depends: python
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 1.7
+Homepage: https://github.com/xpirt/img2sdat
+Description: Convert sparse EXT4 image to sparse Android data image
+Filename: dists/termux/extras/binary-all/img2sdat_1.7_all.deb
+Size: 32092
+MD5Sum: 64999e5ea9a28f6a144dbbeab6437a96
+SHA1: 4d9e0fcafe4064f24da3a784cc49f9018be85d73
+SHA256: ee8b7d79ba664435b59c6ac270edc88088559a6e489ee8c453cb50a1e042aad4
+SHA512: 909d3a04c981288aee05eb9b29cfb8929c2d10981ed353e8c2847189cefdb3ad8921d018c9ccbf6bf8a576108016e95ab6bfc01ff6262a576f14ec1ea251de44
+
 Package: linux-installer-installer
 Version: 1
 Architecture: all
@@ -12,6 +42,21 @@ SHA1: de39e4091e95d79d3f34fc75856622b678d6bdfb
 SHA256: 75db6654c3619bf6c84081fa86d8eaddebea735d79e89549138bca991df6bd69
 SHA512: 2460a69464ac39d1882acfd3e19ca3f2b8b46538a54c1af3c65cd46da0dd4a28c2bec2a9883b719112a85ff1c7c211cda1bd83bc35eb5aa4aab8db1284b7a05b
 
+Package: sdat2img
+Architecture: all
+Installed-Size: 48
+Depends: python
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 1.2-1
+Homepage: https://github.com/xpirt/sdat2img
+Description: Convert sparse Android data image to filesystem ext4 image
+Filename: dists/termux/extras/binary-all/sdat2img_1.2-1_all.deb
+Size: 3532
+MD5Sum: 1793249676de56ad41a12477385c57ea
+SHA1: fccaf82b83614140b331d8b6b5c04d67495489b8
+SHA256: 86bdec04c47ddaa9d585221082b9ef265bd0e33b4d9539d74a3ca9284dc03e0e
+SHA512: 34126d54ad4985289eb93151b83b16b2179e5a108016dfb38e9ed3bbb5d19cf7206b5c28ccfb93d4beb3601f2a42780b5b56dd9cb25a4ecdf75c37fb8647a524
+
 Package: termux-cn-doc
 Version: 1
 Architecture: all
@@ -24,4 +69,19 @@ MD5Sum: 01afba4ae5bc3d6ea698c5b2fd1d145f
 SHA1: f2abfea36303e50c5edb2be43a485458eb865fb5
 SHA256: 2e60fdaa2032cff639876a62af3a9d3689015f85bf589e1ed758ffc1566d9403
 SHA512: d0a80d5b7aceaaec4d51f7fbfd0b7dd234f571adaf5725da7345e1d7908663264819499cde342e6b0e26befbc51e39575158ddd63ce9069a63fcf80e0d18f60c
+
+Package: ytb-player
+Architecture: all
+Installed-Size: 56
+Depends: bc, coreutils, curl, findutils, jq, mpv, ncurses, ncurses-ui-libs, ncurses-utils, python, sed, util-linux
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 4.4
+Homepage: https://github.com/rendiix/rendiix.github.io
+Description: Simple CLI YouTube downloader
+Filename: dists/termux/extras/binary-all/ytb-player_4.4_all.deb
+Size: 6204
+MD5Sum: 95db336339ad5661bcb948316bbdddda
+SHA1: 3c28ee0638ec727ecc4d9bb323287027732d381e
+SHA256: 9486520a651b8f1d5bc8bd86291e373d9f42651095f40ef58865e657a97bdbcd
+SHA512: 2085db8a041420872684135ad7e5977fcf9fba520b4b6d569570d95baac587f92ca19a0c3b598c7ea3dc27f739912313935d49067ccfa6eda5ce467251fb3af2
 
