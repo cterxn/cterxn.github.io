@@ -28,6 +28,20 @@ SHA1: 4d9e0fcafe4064f24da3a784cc49f9018be85d73
 SHA256: ee8b7d79ba664435b59c6ac270edc88088559a6e489ee8c453cb50a1e042aad4
 SHA512: 909d3a04c981288aee05eb9b29cfb8929c2d10981ed353e8c2847189cefdb3ad8921d018c9ccbf6bf8a576108016e95ab6bfc01ff6262a576f14ec1ea251de44
 
+Package: jsql-injection
+Version: 0.8.5
+Architecture: all
+Maintainer: 2096779623,
+Description: jSQL Injection 是一个轻量级应用程序，用于从远程服务器查找数据库信息。
+Homepage: https://utermux.eu.org
+Depends: openjdk-17,tigervnc
+Filename: dists/termux/extras/binary-all/jsql-injection_0.8.5_all.deb
+Size: 7297216
+MD5Sum: a8ff0605c30b2df4bd9a76bc04c9d21c
+SHA1: 174db051f3a2372d38c42565c7e681b727481991
+SHA256: 8a6251e8d1e676e48dade00194f93cb2420d96ea45e41c18b921e505733961d2
+SHA512: 9d181250c814b1cd7df4f15b51c3b125e9e7651fc563da31ff9805763d348c449dd1bbdd68e97b8118b58f68668f3d5fc82673bed2a6f48bc4ddbdd48c619d8a
+
 Package: linux-installer-installer
 Version: 1
 Architecture: all
