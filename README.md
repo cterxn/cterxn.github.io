@@ -34,7 +34,7 @@ apt update
 
 
 
-## 计划新建立一个名为TCUR（全名：cterxn/TCUR）的仓库
+## 计划新建立一个名为TCUR（全名：cterxn/TCUR）的源
 
 允许所有人提交，只要是deb包即可提交，本人不进行任何测试，但偶尔可能会抽测/使用。所有这样的deb包名称中应带上*TCUR*
 
