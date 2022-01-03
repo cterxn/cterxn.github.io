@@ -4,7 +4,7 @@
 
 本人不担保包可使用且安全，尤其是cterxn/TCUR中的包
 
-## 如何使用cterxn/termuzcn软件源:
+## 如何使用cterxn/termucn软件源:
 
 执行：
 
