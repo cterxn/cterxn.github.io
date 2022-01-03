@@ -216,5 +216,9 @@ data/data/com.termux/files/usr/share/Mytermuxdoc/POST/开启OpenSSH服务.md    
 data/data/com.termux/files/usr/share/Mytermuxdoc/README.md                       termux-cn-doc
 data/data/com.termux/files/usr/share/Mytermuxdoc/txmuadd/termux.html             termux-cn-doc
 data/data/com.termux/files/usr/bin/vdexExtractor                                 vdexExtractor
+data/data/com.termux/files/usr/bin/yara                                          yara
+data/data/com.termux/files/usr/bin/yarac                                         yara
+data/data/com.termux/files/usr/bin/.libs/yara                                    yara
+data/data/com.termux/files/usr/bin/.libs/yarac                                   yara
 data/data/com.termux/files/usr/bin/zipalign                                      zipalign
 data/data/com.termux/files/usr/share/doc/zipalign/LICENSE                        zipalign

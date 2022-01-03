@@ -1,3 +1,17 @@
+Package: CobaltStrikeCN
+Version: 4.0
+Architecture: all
+Maintainer: 2096779623,help systems
+Description: 用于对手模拟和红队行动的黑客软件。(汉化)
+Homepage: https://utermux.eu.org
+Depends: openjdk-17,tigervnc
+Filename: dists/termux/extras/binary-all/CobaltStrikeCN_4.0_all.deb
+Size: 25723948
+MD5Sum: 9663d63c56e4c66d6197c600557e725b
+SHA1: 35dee144b0b2e47e6e65232d20a29874406b7d07
+SHA256: 2b926828a69cd780d4ba5b63e4269a42221003c19a05f6a9f4d002c7226547ac
+SHA512: 12ba79f166e43a6f83b26af6ce0ece92f5df96c3d91375b2fa6f17f773354494390c067e73b3800d042ba12f1e6cf8ecde5d631d43e655cc7933ff4e98421ebc
+
 Package: dex2jar
 Architecture: all
 Installed-Size: 15943
