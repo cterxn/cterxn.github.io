@@ -41,3 +41,7 @@ apt update
 ## 计划建立src-dir（全名：cterxn/src-dir）源
 
 这个仓库只是一个打包为deb的文件夹的集合，文件夹里面有源码包，需要自行动手编译安装（这样安装的软件包就不归apt管了）
+
+## 计划建立TCSR（全名：cterxn/TCSR）源
+
+将cterxn组织的TCSR仓库中的（部分）脚本（分类）通过文件夹形式打包为deb包，安装后在/data/data/com.termux/files/usr/src/（需要预创建）。安装deb包后请自行前去使用/安装脚本。
