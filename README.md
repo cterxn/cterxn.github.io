@@ -2,9 +2,9 @@
 
 提交要求：体积适当，可以运行，安全
 
-本人不担保包可使用且安全，尤其是cterxn/TCUR中的包
+本人不担保包可使用且安全，尤其是cterxn/TCUR和cterxn/TCSR中的包
 
-请大伙们积极访问本仓库和<cterxn.github.io>以获取最新公告，资讯与更新！
+请大伙们积极访问本仓库和[项目首页](https://cterxn.github.io)以获取最新公告，资讯与更新！
 
 ## 如何使用cterxn/termuxn软件源:
 
