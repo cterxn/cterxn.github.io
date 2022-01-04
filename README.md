@@ -26,7 +26,7 @@ apt update
 
 完事！
 
-注：也可参考[UT博客中的换源教程末尾的换源方法](https://blog.utermux.eu.org/ut/changerepo.html?highlight=termux%E6%8D%A2%E6%BA%90)，只是我习惯于apt edit-sources
+注：也可参考[UTermux博客中的换源教程末尾的换源方法](https://blog.utermux.eu.org/ut/changerepo.html#cterxn)，只是我习惯于apt edit-sources
 
 ## 贡献说明：
 
