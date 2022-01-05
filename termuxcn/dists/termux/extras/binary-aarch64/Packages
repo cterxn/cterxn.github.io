@@ -197,11 +197,11 @@ Description: YARA 是一种旨在（但不限于）帮助恶意软件研究人�
 Homepage: https://utermux.eu.org
 Depends: file,openssl
 Filename: dists/termux/extras/binary-aarch64/yara_4.1.3_aarch64.deb
-Size: 16936
-MD5Sum: 0072b22bd2353e2d17a3655a6ab3cded
-SHA1: b698c4baac41634c76aed668a0a32e8b3c907869
-SHA256: ac678265e9df5dee9c219a167bb795ddae5ef15c22f51f6380374287bbe94c2d
-SHA512: abcd87852a616b738362d617de3e43cbaae74798203fbff9bfddb3882fbc92f8efd508daefaac9bf41fa0b92194793ebb2a5c8f6788c9129979d49930f7e2afa
+Size: 188700
+MD5Sum: 82b5927ca055a491890943304cef16f0
+SHA1: f5399318d4701bea2b7830b138b3f97e1f51681b
+SHA256: bb485942cc14e02b52dabc33887217f6dcde53d4f9502c7012798b675abad702
+SHA512: 60ce62c98559064e50a45aa6ca0ec8100132c4161051796e71a5f5a68f21c58b18a3294c549d344ac2fad617e40e51a0df1ded3115942df50d3c8c9543a1a763
 
 Package: zipalign
 Architecture: aarch64

@@ -218,7 +218,10 @@ data/data/com.termux/files/usr/share/Mytermuxdoc/txmuadd/termux.html            
 data/data/com.termux/files/usr/bin/vdexExtractor                                 vdexExtractor
 data/data/com.termux/files/usr/bin/yara                                          yara
 data/data/com.termux/files/usr/bin/yarac                                         yara
-data/data/com.termux/files/usr/bin/.libs/yara                                    yara
-data/data/com.termux/files/usr/bin/.libs/yarac                                   yara
+data/data/com.termux/files/usr/lib/libyara.so                                    yara
+data/data/com.termux/files/usr/lib/libyara.so.8.0.0                              yara
+data/data/com.termux/files/usr/lib/libyara.so.8                                  yara
+data/data/com.termux/files/usr/lib/libyara.la                                    yara
+data/data/com.termux/files/usr/bin/libtool                                       yara
 data/data/com.termux/files/usr/bin/zipalign                                      zipalign
 data/data/com.termux/files/usr/share/doc/zipalign/LICENSE                        zipalign
