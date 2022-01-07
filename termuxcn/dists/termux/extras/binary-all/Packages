@@ -1,3 +1,17 @@
+Package: CobaltStrikeCN
+Version: 4.0
+Architecture: all
+Maintainer: 2096779623,help systems
+Description: 用于对手模拟和红队行动的黑客软件。(汉化)
+Homepage: https://utermux.eu.org
+Depends: openjdk-17,tigervnc
+Filename: dists/termux/extras/binary-all/CobaltStrikeCN_4.0_all.deb
+Size: 25723948
+MD5Sum: 9663d63c56e4c66d6197c600557e725b
+SHA1: 35dee144b0b2e47e6e65232d20a29874406b7d07
+SHA256: 2b926828a69cd780d4ba5b63e4269a42221003c19a05f6a9f4d002c7226547ac
+SHA512: 12ba79f166e43a6f83b26af6ce0ece92f5df96c3d91375b2fa6f17f773354494390c067e73b3800d042ba12f1e6cf8ecde5d631d43e655cc7933ff4e98421ebc
+
 Package: dex2jar
 Architecture: all
 Installed-Size: 15943
@@ -12,6 +26,20 @@ MD5Sum: b3d713ae1988cf39c507ccda2008e24b
 SHA1: 358416cb0742b7e0600125abcb8fd8606100fecb
 SHA256: 59274cd1eff3c1fb23ce49ee3d56afc59e05688bdeac5d0be8c952b2372a6b5c
 SHA512: 10c94c0cda96ea3fa92a1d6f1daf80a5429e567997927a12e5dc4234fd0f75ff4c2838b6e80c1b8b9eb4066a46c55f19920108411db8b25645fd8cde9705972b
+
+Package: go-cqhttp
+Version: 1.0.0-beta8-fix2
+Architecture: all
+Maintainer: 2096779623,Mrs4s
+Description: 使用 mirai (opens new window)以及 MiraiGo (opens new window)开发的 cqhttp golang 原生实现, 并在 cqhttp 原版 (opens new window)的基础上做了部分修改和拓展。 
+Homepage: https://utermux.eu.org
+Depends: golang
+Filename: dists/termux/extras/binary-all/go-cqhttp_1.0.0-beta8-fix2_all.deb
+Size: 6570652
+MD5Sum: 03b799d701b0b0556211050f9dcb5469
+SHA1: cc7970664700059a8c307727141ae9ce401cd31e
+SHA256: 724d56a6ea3ab15aa8d12c3d7379b77a3bf467dd480864d2b0191ec0700c4ed0
+SHA512: 7e61c7786fd519f8fddfc9c43b05d3ecea7c2bc93e51b0eec8c27930d03c502b458f0752fa9fc70579931535612df6560e3e00891c4b86c801d7fd8fe2969898
 
 Package: img2sdat
 Architecture: all
@@ -28,6 +56,20 @@ SHA1: 4d9e0fcafe4064f24da3a784cc49f9018be85d73
 SHA256: ee8b7d79ba664435b59c6ac270edc88088559a6e489ee8c453cb50a1e042aad4
 SHA512: 909d3a04c981288aee05eb9b29cfb8929c2d10981ed353e8c2847189cefdb3ad8921d018c9ccbf6bf8a576108016e95ab6bfc01ff6262a576f14ec1ea251de44
 
+Package: jsql-injection
+Version: 0.8.5
+Architecture: all
+Maintainer: 2096779623,
+Description: jSQL Injection 是一个轻量级应用程序，用于从远程服务器查找数据库信息。
+Homepage: https://utermux.eu.org
+Depends: openjdk-17,tigervnc
+Filename: dists/termux/extras/binary-all/jsql-injection_0.8.5_all.deb
+Size: 7297216
+MD5Sum: a8ff0605c30b2df4bd9a76bc04c9d21c
+SHA1: 174db051f3a2372d38c42565c7e681b727481991
+SHA256: 8a6251e8d1e676e48dade00194f93cb2420d96ea45e41c18b921e505733961d2
+SHA512: 9d181250c814b1cd7df4f15b51c3b125e9e7651fc563da31ff9805763d348c449dd1bbdd68e97b8118b58f68668f3d5fc82673bed2a6f48bc4ddbdd48c619d8a
+
 Package: linux-installer-installer
 Version: 1
 Architecture: all
@@ -37,10 +79,10 @@ Homepage: https://github.com/cterxn/linux-installer-installer
 Depends: wget,curl,git
 Filename: dists/termux/extras/binary-all/linux-installer-installer_1_all.deb
 Size: 1308
-MD5Sum: 11ba35ffb89670465263fde6d1e53472
-SHA1: de39e4091e95d79d3f34fc75856622b678d6bdfb
-SHA256: 75db6654c3619bf6c84081fa86d8eaddebea735d79e89549138bca991df6bd69
-SHA512: 2460a69464ac39d1882acfd3e19ca3f2b8b46538a54c1af3c65cd46da0dd4a28c2bec2a9883b719112a85ff1c7c211cda1bd83bc35eb5aa4aab8db1284b7a05b
+MD5Sum: 2e214d00f8c2a30dbc162c726ac2efca
+SHA1: 3542612ec75d2e6a63ba0e28420f6372a3b02520
+SHA256: 7479f4ed781c914d5eae50d3aa451b5103446464055783a13666c06dd03bd892
+SHA512: 7871f9281200c7709a7b82d6d4d7b20921f66da1b7c7e4ff3ac803af6571fde9a9f7d50bfced679e4d676af60faad56e1240e3b772681491c958750944359a2f
 
 Package: sdat2img
 Architecture: all
@@ -60,15 +102,15 @@ SHA512: 34126d54ad4985289eb93151b83b16b2179e5a108016dfb38e9ed3bbb5d19cf7206b5c28
 Package: termux-cn-doc
 Version: 1
 Architecture: all
-Maintainer: @txmu
+Maintainer: @myfreess
 Description: 中文termux文档，仓库链接：https://github.com/myfreess/Mytermuxdoc。本人仅是代打包并增加一些，其中有本人写的，也有不是本人写的
 Homepage: https://github.com/myfreess/Mytermuxdoc
 Filename: dists/termux/extras/binary-all/termux-cn-doc_1_all.deb
 Size: 139724
-MD5Sum: 01afba4ae5bc3d6ea698c5b2fd1d145f
-SHA1: f2abfea36303e50c5edb2be43a485458eb865fb5
-SHA256: 2e60fdaa2032cff639876a62af3a9d3689015f85bf589e1ed758ffc1566d9403
-SHA512: d0a80d5b7aceaaec4d51f7fbfd0b7dd234f571adaf5725da7345e1d7908663264819499cde342e6b0e26befbc51e39575158ddd63ce9069a63fcf80e0d18f60c
+MD5Sum: f8fc730b2d1265a76bbf996dfe8c1c74
+SHA1: bc445e08c102105ef720a3f2f68c316e4a7e43d2
+SHA256: 652819042f97549aebef4b4cdb068103ae25d5a88a62a0c96946df43e5b6e6d6
+SHA512: 1fb30e51187b8bdffb8e0b5cb239b4b64f0f7f430248af6c16037db06d4dbf0a71ae545600a286197bcb0eba76e23e9d9b2d1a26227f5e34e74fa062ad15439a
 
 Package: ytb-player
 Architecture: all

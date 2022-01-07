@@ -189,6 +189,20 @@ SHA1: e1b0bdc2dbcae28de12a67ba93312e3a9d7e3260
 SHA256: 7a28a47308a892741a8ccb81e8a13a25782ae982efd02704c379d350b1cb56ef
 SHA512: 9afff43359b2a692be09d406e2097853166af1b1e7a35106281ca4357d2dc14cf2e06b20e716b399c2768accd136837cc0f4d4655eacf6a74275392f37048af5
 
+Package: yara
+Version: 4.1.3
+Architecture: aarch64
+Maintainer: 2096779623,VirusTotal
+Description: YARA 是一种旨在（但不限于）帮助恶意软件研究人员识别和分类恶意软件样本的工具(比官方源更新快)
+Homepage: https://utermux.eu.org
+Depends: file,openssl
+Filename: dists/termux/extras/binary-aarch64/yara_4.1.3_aarch64.deb
+Size: 188700
+MD5Sum: 82b5927ca055a491890943304cef16f0
+SHA1: f5399318d4701bea2b7830b138b3f97e1f51681b
+SHA256: bb485942cc14e02b52dabc33887217f6dcde53d4f9502c7012798b675abad702
+SHA512: 60ce62c98559064e50a45aa6ca0ec8100132c4161051796e71a5f5a68f21c58b18a3294c549d344ac2fad617e40e51a0df1ded3115942df50d3c8c9543a1a763
+
 Package: zipalign
 Architecture: aarch64
 Installed-Size: 919
