@@ -1,5 +1,6 @@
 # cterxn.github.io
-**[简体中文](https://github.com/cterxn/cterxn.github.io/blob/main/README.md)**
+**[简体中文](https://github.com/cterxn/cterxn.github.io/blob/main/README.md)**  
+
 PR requirements: appropriate size, runnable and secure.
 
 I do not guarantee that packages are usable and safe, especially those in cterxn/TCUR and cterxn/TCSR.
