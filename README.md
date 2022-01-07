@@ -1,5 +1,7 @@
 # cterxn.github.io
 
+**[English](https://github.com/cterxn/cterxn.github.io/blob/main/README_EN.md)**    
+
 提交要求：体积适当，可以运行，安全
 
 本人不担保包可使用且安全，尤其是cterxn/TCUR和cterxn/TCSR中的包
