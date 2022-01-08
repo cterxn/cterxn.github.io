@@ -8,6 +8,8 @@
 
 请大伙们积极访问本仓库和[项目首页](https://cterxn.github.io)以获取最新公告，资讯与更新！
 
+使用前，请完整阅读README.md
+
 ## 如何使用cterxn/termuxn软件源:
 
 执行：
@@ -51,3 +53,15 @@ apt update
 将cterxn组织的TCSR仓库中的（部分）脚本（分类）通过文件夹形式打包为deb包，安装后在/data/data/com.termux/files/usr/src/（需要预创建）。安装deb包后请自行前去使用/安装脚本。
 
 所有包名中都将带上*TCSR*
+
+## 征集制作deb包
+
+希望大家帮忙制作！
+
+*  checkinstall （源码镜像：https://github.com/cntrump/checkinstall）（官网：http://checkinstall.izto.org/）
+
+* php 7.4 （7.3也可。官网下载页面：https://www.php.net/downloads.php）
+
+* install-log （年代久远但实用。直接从https://nxretc.github.io/install-log-cvs.tar.bz2下载源码吧。非要访问官网的话，链接：http://install-log.sourceforge.net/。注意：官网上指向最新版本的链接已无法使用，我的版本是从[网页时光机（需要t）](web.archive.org)找来的，最后一个版本（大概）更新于2003.05.27）
+
+* hashcat,metasploit和sqlmap （国光大佬从Git的提交记录中恢复了源码，链接：https://github.com/sqlsec/termux-sec-packages/tree/main/metasploit）
