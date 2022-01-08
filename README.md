@@ -10,7 +10,7 @@
 
 使用前，请完整阅读README.md
 
-## 如何使用cterxn/termuxn软件源:
+## 如何使用cterxn/termuxcn软件源:
 
 执行：
 
