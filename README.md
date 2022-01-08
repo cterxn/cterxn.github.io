@@ -62,6 +62,7 @@ apt update
 
 * php 7.4 （7.3也可。官网下载页面：https://www.php.net/downloads.php）
 
-* install-log （年代久远但实用。直接从https://nxretc.github.io/install-log-cvs.tar.bz2下载源码吧。非要访问官网的话，链接：http://install-log.sourceforge.net/。注意：官网上指向最新版本的链接已无法使用，我的版本是从[网页时光机（需要t）](web.archive.org)找来的，最后一个版本（大概）更新于2003.05.27）
+* install-log （年代久远但实用。直接从https://nxretc.github.io/install-log-cvs.tar.bz2下载源码吧）
+（非要访问官网的话，链接：http://install-log.sourceforge.net/。注意：官网上指向最新版本的链接已无法使用，我的版本是从[网页时光机（需要t）](web.archive.org)找来的，最后一个版本（大概）更新于2003.05.27）
 
 * hashcat,metasploit和sqlmap （国光大佬从Git的提交记录中恢复了源码，链接：https://github.com/sqlsec/termux-sec-packages/tree/main/metasploit）
