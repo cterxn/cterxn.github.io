@@ -58,7 +58,8 @@ apt update
 
 希望大家帮忙制作！
 
-*  checkinstall （源码镜像：https://github.com/cntrump/checkinstall）（官网：http://checkinstall.izto.org/）
+*  checkinstall （源码镜像：https://github.com/cntrump/checkinstall）
+（官网：http://checkinstall.izto.org/）
 
 * php 7.4 （7.3也可。官网下载页面：https://www.php.net/downloads.php）
 
