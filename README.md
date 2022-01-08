@@ -65,6 +65,6 @@ apt update
 
 * install-log （年代久远但实用。源码位于https://nxretc.github.io/install-log-cvs.tar.bz2
 （非要访问官网的话，链接：http://install-log.sourceforge.net/
-……注意：官网上指向最新版本的链接已无法使用，我的版本是从[网页时光机（需要t）](web.archive.org)找来的，最后一个版本（大概）更新于2003.05.27）
+……注意：官网上指向最新版本的链接已无法使用，我的版本是从*网页时光机*找来的，最后一个版本（大概）更新于2003.05.27）
 
 * hashcat,metasploit和sqlmap （国光大佬从Git的提交记录中恢复了源码，链接：https://github.com/sqlsec/termux-sec-packages/tree/main/metasploit
