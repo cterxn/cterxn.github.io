@@ -56,7 +56,7 @@ apt update
 
 ## 征集制作deb包
 
-希望大家帮忙制作！
+希望大家帮忙制作！（希望能优先制作checkinstall和install-log，checkinstall可以更加方便的生成deb（rpm,slackware安装包等）,install-log可以捕捉编译安装软件后软件被安装到了哪里。这些工具将方便打包）
 
 *  checkinstall （源码镜像：https://github.com/cntrump/checkinstall
 （官网：http://checkinstall.izto.org/
