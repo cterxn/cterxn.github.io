@@ -49,4 +49,22 @@ This repository is just a collection of folders packaged as deb, with source pac
 
 Package (some of) the scripts (categories) from the TCSR repository organized by cterxn as deb packages via folders and install them in /data/data/com.termux/files/usr/src/ (need to be pre-created). Please go ahead and use/install the script yourself after installing the deb package.
 
-All package names will have *TCSR* in them.
+All package names will have *TCSR* in them.   
+
+
+## Call for production deb packages
+
+I'd love your help! (I would like to prioritise checkinstall and install-log, checkinstall will make it easier to generate debs (rpm, slackware installers etc) and install-log will capture where the software has been installed after compiling and installing it. (These tools will make it easier to package)
+
+* checkinstall (source code image: https://github.com/cntrump/checkinstall)
+(official website: http://checkinstall.izto.org/)
+
+* php 7.4 (7.3 is also available. Official download page: https://www.php.net/downloads.php
+
+* install-log (Older but useful. The source code is located at https://nxretc.github.io/install-log-cvs.tar.bz2
+(If you have to visit the official website, the link is: http://install-log.sourceforge.net/
+...... Note: the link to the latest version on the website is no longer available, I got mine from *Web Time Machine*, the last version was updated (roughly) on 27.05.2003)
+
+* hashcat, metasploit and sqlmap (sqlsec recovered the source code from Git commits, link: https://github.com/sqlsec/termux-sec-packages/tree/main/metasploit
+
+
