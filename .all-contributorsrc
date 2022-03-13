@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "txmu",
+      "name": "txmu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71213934?v=4",
+      "profile": "https://github.com/txmu",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cterxn.github.io",
+  "projectOwner": "cterxn",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

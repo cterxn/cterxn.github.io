@@ -1,4 +1,7 @@
 # cterxn.github.io
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **[English](https://github.com/cterxn/cterxn.github.io/blob/main/README_EN.md)**    
 
@@ -68,3 +71,23 @@ apt update
 ……注意：官网上指向最新版本的链接已无法使用，我的版本是从*网页时光机*找来的，最后一个版本（大概）更新于2003.05.27）
 
 * hashcat,metasploit和sqlmap （国光大佬从Git的提交记录中恢复了源码，链接：https://github.com/sqlsec/termux-sec-packages/tree/main/metasploit
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/txmu"><img src="https://avatars.githubusercontent.com/u/71213934?v=4?s=100" width="100px;" alt=""/><br /><sub><b>txmu</b></sub></a><br /><a href="#design-txmu" title="Design">🎨</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
