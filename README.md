@@ -1,6 +1,6 @@
 # cterxn.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **[English](https://github.com/cterxn/cterxn.github.io/blob/main/README_EN.md)**    
@@ -82,6 +82,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/txmu"><img src="https://avatars.githubusercontent.com/u/71213934?v=4?s=100" width="100px;" alt=""/><br /><sub><b>txmu</b></sub></a><br /><a href="#design-txmu" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.utermux.dev"><img src="https://avatars.githubusercontent.com/u/57583560?v=4?s=100" width="100px;" alt=""/><br /><sub><b>2096779623</b></sub></a><br /><a href="https://github.com/cterxn/cterxn.github.io/commits?author=2096779623" title="Documentation">📖</a></td>
   </tr>
 </table>
 
