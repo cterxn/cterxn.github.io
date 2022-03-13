@@ -8,7 +8,7 @@ I do not guarantee that packages are usable and safe, especially those in cterxn
 
 Please visit this repository and the [project home](https://cterxn.github.io) for the latest announcements, information and updates!
 
-Please read the README.md in its entirety before use
+Please read the [README.md](./README.md) in its entirety before use
 
 ## How to use the cterxn/termuxcn repository:
 
