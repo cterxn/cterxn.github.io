@@ -1,6 +1,6 @@
 # cterxn.github.io
 
-**[English](https://github.com/cterxn/cterxn.github.io/blob/main/README_EN.md)**    
+**[简体中](https://github.com/cterxn/cterxn.github.io/blob/main/README.md)**    
 
 Submission requirements: appropriate size, runnable, secure
 
