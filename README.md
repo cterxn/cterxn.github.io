@@ -8,7 +8,7 @@
 
 请大伙们积极访问本仓库和[项目首页](https://cterxn.github.io)以获取最新公告，资讯与更新！
 
-使用前，请完整阅读README.md
+使用前，请完整阅读[README.md](./README.md)!
 
 ## 如何使用cterxn/termuxcn软件源:
 
@@ -32,7 +32,7 @@ apt update
 
 完事！
 
-注：也可参考[UTermux博客中的换源教程末尾的换源方法](https://blog.utermux.eu.org/ut/changerepo.html#cterxn)，只是我习惯于apt edit-sources
+注：也可参考[UTermux博客中的换源教程末尾的换源方法](https://blog.utermux.dev/ut/changerepo.html#cterxn)，只是我习惯于`apt edit-sources`
 
 ## 贡献说明：
 
