@@ -1,6 +1,7 @@
 {
   "files": [
-    "README.md"
+    "README.md",
+    ”README_EN.md”
   ],
   "imageSize": 100,
   "commit": false,
@@ -15,7 +16,7 @@
       ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 10,
   "projectName": "cterxn.github.io",
   "projectOwner": "cterxn",
   "repoType": "github",
