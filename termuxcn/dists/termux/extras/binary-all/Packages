@@ -6,11 +6,11 @@ Description: 用于对手模拟和红队行动的黑客软件。(汉化)
 Homepage: https://utermux.eu.org
 Depends: openjdk-17,tigervnc
 Filename: dists/termux/extras/binary-all/CobaltStrikeCN_4.0_all.deb
-Size: 25723948
-MD5Sum: 9663d63c56e4c66d6197c600557e725b
-SHA1: 35dee144b0b2e47e6e65232d20a29874406b7d07
-SHA256: 2b926828a69cd780d4ba5b63e4269a42221003c19a05f6a9f4d002c7226547ac
-SHA512: 12ba79f166e43a6f83b26af6ce0ece92f5df96c3d91375b2fa6f17f773354494390c067e73b3800d042ba12f1e6cf8ecde5d631d43e655cc7933ff4e98421ebc
+Size: 25723712
+MD5Sum: 7c764ccfa808d7fb062e161d7f82206a
+SHA1: 9acd8e2ac8c9ef10c5a611dc02ac4476e69745c5
+SHA256: a7d9663aded45797a3cb18a5eb487ac63df1b90d089560e0806a4a4a82345491
+SHA512: f84aea8df25a02aed0c221fd7f3c999c4d8f54a1adedf8ac7b0ca115a74c4d46bee3be96e365d2e9282dd198645420b8f6c26dc9fb2d0152299f91639b79a2fb
 
 Package: dex2jar
 Architecture: all
