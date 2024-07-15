@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced 1960s Style Chat AI</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tensorflow/3.18.0/tf.min.js"></script>
+    <script src="compromise.min.js"></script>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #chat-container {
+            width: 80%;
+            max-width: 600px;
+            border: 2px solid #0f0;
+            padding: 20px;
+            background-color: #111;
+        }
+        #chat-display {
+            height: 300px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            border: 1px solid #0f0;
+            padding: 10px;
+        }
+        #user-input {
+            width: 100%;
+            padding: 5px;
+            background-color: #000;
+            color: #0f0;
+            border: 1px solid #0f0;
+        }
+        #send-button {
+            width: 100%;
+            padding: 5px;
+            margin-top: 10px;
+            background-color: #0f0;
+            color: #000;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-display"></div>
+        <input type="text" id="user-input" placeholder="Type your message here...">
+        <button id="send-button">SEND</button>
+    </div>
+
+    <script>
+        const chatDisplay = document.getElementById('chat-display');
+        const userInput = document.getElementById('user-input');
+        const sendButton = document.getElementById('send-button');
+
+        // Simplified sentiment analysis model
+        const sentimentModel = tf.sequential();
+        sentimentModel.add(tf.layers.dense({units: 1, inputShape: [10], activation: 'sigmoid'}));
+        sentimentModel.compile({optimizer: 'sgd', loss: 'binaryCrossentropy'});
+
+        // Context management
+        let context = [];
+
+        function addMessage(sender, message) {
+            const messageElement = document.createElement('p');
+            messageElement.textContent = `${sender}: ${message}`;
+            chatDisplay.appendChild(messageElement);
+            chatDisplay.scrollTop = chatDisplay.scrollHeight;
+        }
+
+        async function getAIResponse(input) {
+            // Use compromise for NLP tasks
+            const doc = nlp(input);
+            const topics = doc.topics().out('array');
+            const sentiment = await analyzeSentiment(input);
+            
+            // Update context
+            context.push({input, topics, sentiment});
+            if (context.length > 5) context.shift();
+
+            // Generate response based on context and NLP analysis
+            let response = generateResponse(topics, sentiment);
+
+            return response.toUpperCase();
+        }
+
+        async function analyzeSentiment(input) {
+            // Very basic sentiment analysis (for demonstration)
+            const inputTensor = tf.tensor2d([Array(10).fill(input.length / 100)]);
+            const prediction = await sentimentModel.predict(inputTensor).data();
+            return prediction[0] > 0.5 ? 'positive' : 'negative';
+        }
+
+        function generateResponse(topics, sentiment) {
+            let response = '';
+
+            if (topics.length > 0) {
+                const mainTopic = topics[0];
+                response += `I FIND YOUR THOUGHTS ON ${mainTopic.toUpperCase()} INTRIGUING. `;
+            }
+
+            if (sentiment === 'positive') {
+                response += "YOUR POSITIVITY IS NOTED. ";
+            } else {
+                response += "I SENSE SOME CONCERN IN YOUR WORDS. ";
+            }
+
+            // Add some context-aware responses
+            if (context.length > 1) {
+                const prevTopic = context[context.length - 2].topics[0];
+                if (prevTopic && !topics.includes(prevTopic)) {
+                    response += `EARLIER YOU MENTIONED ${prevTopic.toUpperCase()}. HOW DOES THAT RELATE TO OUR CURRENT DISCUSSION? `;
+                }
+            }
+
+            response += "PLEASE ELABORATE FURTHER.";
+
+            return response;
+        }
+
+        async function handleUserInput() {
+            const userMessage = userInput.value.trim();
+            if (userMessage) {
+                addMessage("YOU", userMessage);
+                userInput.value = "";
+                
+                const aiResponse = await getAIResponse(userMessage);
+                setTimeout(() => {
+                    addMessage("AI-1960", aiResponse);
+                }, 1000);
+            }
+        }
+
+        sendButton.addEventListener('click', handleUserInput);
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                handleUserInput();
+            }
+        });
+
+        // Initial greeting
+        setTimeout(() => {
+            addMessage("AI-1960", "GREETINGS, HUMAN. I AM AI-1960, AN ADVANCED CONVERSATIONAL SYSTEM. HOW MAY I ASSIST YOU TODAY?");
+        }, 1000);
+    </script>
+</body>
+</html>
